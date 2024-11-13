@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Purple Buzz - Work Detail Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Load Tempalte CSS -->
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+<!--
+    
+TemplateMo 561 Purple Buzz
+
+https://templatemo.com/tm-561-purple-buzz
+
+-->
+</head>
+<body style="background-color: rgb(70, 162, 99);">
+    <body>
+        <!-- Header -->
+         
+        <style>
+        
+            .custom-navbar {
+                        background-color: #f6f9fe; /* Ganti dengan warna yang diinginkan */
+                    }
+                    .custom-navbar .navbar-brand {
+                        color: #f1e320; /* Warna teks untuk kontras */
+                    }
+            
+                    .text-night {
+                color: white!important
+                
+            }
+                </style>
+        
+        <style>
+        
+            .btn-check:active+.btn-outline-primary,.btn-check:checked+.btn-outline-primary,.btn-outline-primary.active,.btn-outline-primary.dropdown-toggle.show,.btn-outline-primary:active,.btn-outline-primary:hover {
+                color: #ece002;
+                background-color:#ece002;
+                border-color: rgb(171, 214, 252);
+            }
+        
+            </style>
+                <nav id="main_nav" class="navbar navbar-expand-lg navbar-light custom-navbar shadow">
+                    <div class="container d-flex justify-content-between align-items-center">
+                        <a class="navbar-brand h1" href="index.html">
+                            <img src="assets/img/apple-icon.png" alt="Logo" class="logo-icon" width="90" height="80" />
+                            <span class="h4" style="color: #006400;"><b>PortalEkstra SMATHBAR</b></span>
+                        </a>
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+            
+                        <style>
+                            .navbar-custom {
+                                background-color:#e6902c; 
+                            }
+                            .custom-text {
+                                color: #ff5733; /* Ganti dengan warna teks yang diinginkan */
+                                font-weight: bold; /* Menebalkan teks */
+                            }
+                        </style>
+                        <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                            <div class="flex-fill mx-xl-5 mb-2">
+                                <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                                    <li class="nav-item">
+                                        <a class="nav-link btn-outline-primary rounded-pill px-3 custom-text" href="index.html" style="color:black;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                                              </svg> 
+                                            Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn-outline-primary rounded-pill px-3 custom-text" href="leader.html" style="color:black;"> 
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                                            <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599"/>
+                                          </svg> Leader</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn-outline-primary rounded-pill px-3 custom-text" href="galerry.html" style="color:black;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image-fill" viewBox="0 0 16 16">
+                                                <path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+                                              </svg> Galerry</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn-outline-primary rounded-pill px-3 custom-text" href="schedule.html" style="color: black;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                                                <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                                              </svg> Schedule</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                  <a class="nav-link btn-outline-primary rounded-pill px-3 custom-text" href="about us.html" style="color: black;">
+                                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                                                           <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                                                              <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                                                           </svg> About</a>
+                                              </li>
+                      
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn-outline-primary rounded-pill px-3 custom-text" href="contact.html" style="color: black;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
+                                                <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                                              </svg> Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Close Header -->
+         
+            <!DOCTYPE html>
+            <html lang="en">
+            
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Ekstrakurikuler Liberan</title>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+                <style>
+                    body {
+                        font-family: 'Fantasy',!important;
+                        background: linear-gradient 135deg, rgb(7, 124, 44);;
+                        color: black;
+                        line-height: 1.6;
+                        margin: 0;
+                        padding: 0;
+                        overflow-x: hidden;
+                    }
+            
+            
+                    .section-title {
+                        color: white;
+                        font-size: 2.5rem;
+                        margin: 40px 0 20px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        position: relative;
+                    }
+
+                    .section-title2 {
+                        color: white;
+                        font-size: 1.5rem;
+                        margin: 40px 0 20px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        position: relative;
+                    }
+            
+                    .section-title::after {
+                        content: '';
+                        display: block;
+                        width: 100px;
+                        height: 4px;
+                        background:white;
+                        margin: 10px auto 0;
+                        border-radius: 5px;
+                    }
+            
+                    .card {
+                        background: #fff;
+                        border-radius: 20px; /* More rounded corners */
+                        padding: 30px;
+                        margin: 20px 0;
+                        box-shadow: 0 10px 30px black; /* Enhanced shadow */
+                        transition: transform 0.3s, box-shadow 0.3s;
+                        position: relative;
+                        overflow: hidden; /* Ensure the shadow appears smoothly */
+                    }
+            
+                    .card::before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: rgba(255, 255, 255, 0.5); /* Overlay effect */
+                        border-radius: 20px; /* Match card corners */
+                        opacity: 0;
+                        transition: opacity 0.3s;
+                    }
+            
+                    .card:hover::before {
+                        opacity: 1; /* Show overlay on hover */
+                    }
+            
+                    .card:hover {
+                        transform: translateY(-5px);
+                        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3); /* Deepen shadow on hover */
+                    }
+            
+                    .text-muted {
+                        color: black,!important;
+                        font-size: 1rem;
+                    }
+            
+                    .cta-button {
+                        display: inline-block;
+                        padding: 12px 25px;
+                        margin-top: 20px;
+                        background-color: #333;
+                        color: white;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        font-weight: 600;
+                        transition: background-color 0.3s, transform 0.3s;
+                    }
+            
+                    .cta-button:hover {
+                        background-color: #555;
+                        transform: scale(1.05);
+                    }
+            
+                    img.img-fluid {
+                        border-radius: 15px;
+                        transition: transform 0.3s;
+                        max-width: 100%;
+                        height: auto;
+                    }
+            
+                    img.img-fluid:hover {
+                        transform: scale(1.05);
+                    }
+                    .footer {
+                        text-align: center;
+                        padding: 5px 0;
+                        background-color: darkgreen;
+                        margin-top: 20px;
+                        font-size: 0.9rem;
+                        color: white; /* Ganti dengan warna yang diinginkan */
+                    }
+
+            
+                    /* Flexbox layout */
+                    .flex-row {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+            
+                    .flex-column {
+                        flex: 1;
+                        padding: 15px;
+                        min-width: 300px;
+                        max-width: 600px;
+                    }
+            
+                    /* Responsive Design */
+                    @media (max-width: 768px) {
+                        .section-title {
+                            font-size: 2rem;
+                        }
+            
+                        .card {
+                            padding: 20px;
+                        }
+            
+                        .cta-button {
+                            padding: 10px 20px;
+                        }
+                    }
+                </style>
+            </head>
+            
+            <body>
+                <section class="container py-5">
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <h2 class="section-title"><b><strong>PASKIBRA</strong></b></h2>
+                            <div class="card">
+                                <p>
+                                    Selamat datang di halaman resmi Paskibra! Kami adalah organisasi yang penuh semangat dan disiplin, berkomitmen untuk menumbuhkan rasa cinta tanah air melalui kegiatan pengibaran bendera. Di sini, kamu akan menemukan lingkungan yang mendukung untuk mengembangkan diri, berteman, dan berkontribusi pada momen-momen bersejarah.
+                            </div>
+                        </div>
+                        <div class="flex-column">
+                            <img class="img-fluid" src="./assets/img/paskibra (3).jpg" >
+                        </div>
+                    </div>
+                
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <img class="img-fluid" src="./assets/img/paskibra (1).jpg" >
+                        </div>
+                        <div class="flex-column">
+                            <h2 class="section-title2"><b>Kegiatan Kami</b></h2>
+                            <div class="card">
+                                    Di PASKIBRA, kami menyelenggarakan berbagai kegiatan yang menarik, seperti:
+                                </p>
+                                    <li>Latihan Rutin: Sesi latihan untuk meningkatkan keterampilan baris-berbaris dan pengibaran bendera.</li>
+                                    <li>Pengibaran Bendera: Menghormati momen-momen penting seperti upacara bendera di sekolah dan acara nasional.</li>
+                                    <li>Penyeleksian untuk Pengibaran Bendera: Seleksi anggota untuk mewakili sekolah dalam acara pengibaran bendera di tingkat kota atau provinsi.</li>
+                                    <li>Partisipasi dalam Lomba Paskibra: Mengikuti berbagai lomba yang menguji keterampilan dan kebersamaan tim, serta menumbuhkan semangat kompetisi yang sehat.</li>
+                                </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+                
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <h2 class="section-title2"><b>Kenapa Bergabung?</b></h2>
+                            <div class="card">
+                                Bergabung dengan Paskibra memberi kamu kesempatan untuk mengasah keterampilan kepemimpinan, disiplin, dan kerja sama. Kamu juga akan berkontribusi pada momen-momen bersejarah di sekolah dan mendapatkan pengalaman yang tak terlupakan. Selain itu, kamu akan memperluas jaringan pertemanan dengan orang-orang yang memiliki semangat yang sama!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex-column">
+                            <img class="img-fluid" src="./assets/img/paskibra (2).jpg" alt="Workshop Menulis">
+                        </div>
+                    </div>
+                
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <img class="img-fluid" src="./assets/img/paskibra.jpg" >
+                        </div>
+                        <div class="flex-column">
+                            <h2 class="section-title2"><b>ayo bergabung bersama kami!</b></h2>
+                            <div class="card">
+                                Kami mengundang kamu untuk bergabung dengan Paskibra dan menjadi bagian dari perjalanan yang penuh tantangan dan kebanggaan. Daftarkan dirimu sekarang dan mari kita bersama-sama mengibarkan bendera, merayakan momen penting, dan menciptakan kenangan yang tak terlupakan! Hubungi kami untuk informasi lebih lanjut dan ayo bergabung! 🎉
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="footer">
+                        <p>&copy; 2024 SMA Islam Athirah Bukit Baruga. Semua hak dilindungi.</p>
+                    </div>
+                </section>
+                
+            
+   <!-- Start Footer -->
+<style>
+    .light-300 {
+        font-family: fantasy !important; 
+        font-weight: 200; 
+    }
+    .text-light {
+        color: black!important
+    }
+    footer {
+        background-color:#f6f9fe !important; 
+    }
+</style>
+<footer class="custom-footer pt-4">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-lg-3 col-12 align-left">
+                <a class="navbar-brand" href="index.html">
+                    <i class='bx bx-buildings bx-sm text-light'></i>
+                    <span class="text-light h5"><b>PortalEkstra</b></span>
+                </a>
+                <p class="text-light my-lg-4 my-2">
+                    Menyediakan pengalaman menarik untuk minat dan bakat mu!
+                </p>
+                <ul class="list-inline footer-icons light-300">
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="http://facebook.com/">
+                            <i class='bx bxl-facebook-square bx-md'></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                            <i class='bx bxl-linkedin-square bx-md'></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                            <i class='bx bxl-whatsapp-square bx-md'></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.flickr.com/">
+                            <i class='bx bxl-flickr-square bx-md'></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.medium.com/">
+                            <i class='bx bxl-medium-square bx-md'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h3 class="h4 pb-lg-3 text-light light-300">Jaringan Ekstra</h3>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.html">Home</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="leader.html">Leader</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="galerry.html">Galerry</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="schedule.html">Schedule</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about us.html">About</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h4 pb-lg-3 text-light light-300">info selengkapnya</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">010-020-0340</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">info@PortalEkstra.com</a>
+                    </li>
+                    <li class="pb-2">
+                        <a class="text-decoration-none text-light py-1" href="mailto:info@company.com">Address</a>
+                    </li>
+                    <li class="pb-2">
+                        <a class="text-decoration-none text-light py-1" href="mailto:info@company.com">SMA Islam Athirah Bukit Baruga, Manggala, Sulawesi Selatan</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Add map on the right side of info selengkapnya -->
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.666928754441!2d119.48780797498232!3d-5.157184394820126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee3402ca77a75%3A0x2eedc9ae1e3b98c9!2sSMA%20Islam%20Athirah%20Bukit%20Baruga!5e0!3m2!1sid!2sid!4v1698976548487!5m2!1sid!2sid" 
+                        width="160%" 
+                        height="350" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 align-self-center">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        footer {
+            background-color:rgb(246, 190, 100); /* Ganti dengan warna yang diinginkan */
+        }
+    </style>
+
+    <div class="w-100 custom-footer py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-lg-6 col-sm-12">
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- End Footer -->
+
+<!-- Bootstrap -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<!-- Load jQuery require for isotope -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- Isotope -->
+<script src="assets/js/isotope.pkgd.js"></script>
+<!-- Page Script -->
+<script>
+    $(window).load(function() {
+        // init Isotope
+        var $projects = $('.projects').isotope({
+            itemSelector: '.project',
+            layoutMode: 'fitRows'
+        });
+        $(".filter-btn").click(function() {
+            var data_filter = $(this).attr("data-filter");
+            $projects.isotope({
+                filter: data_filter
+            });
+            $(".filter-btn").removeClass("active");
+            $(".filter-btn").removeClass("shadow");
+            $(this).addClass("active");
+            $(this).addClass("shadow");
+            return false;
+        });
+    });
+</script>
+<!-- Templatemo -->
+<script src="assets/js/templatemo.js"></script>
+<!-- Custom -->
+<script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
+
+    
